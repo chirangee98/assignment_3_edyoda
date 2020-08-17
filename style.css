@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+/* header>img{
+    
+} */
+nav>a{
+    color: #B3B3B3;
+    text-decoration: none;
+    margin: 0px 20px;
+
+}
+.active{
+    color: black;
+}
+header>button{
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+main{
+    
+}
+
+section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#left-section{
+    width: 50%;        
+}
+.start-fea{
+    /* width: auto; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color:#6276FF ;
+    background: #FFE1F9;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#left-section h1{
+    font-size: 60px;
+    width: 100%;
+    line-height: 64px;
+    margin: 0px;
+    
+}
+#left-section p{
+    color: #B3B3B3;
+    
+    
+}
+.start-but{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    color: white ;
+    background: #6A7CFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#right-section{
+    /* position: relative; */
+    /* z-index: 1000; */
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+#right-section>img{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    display: block;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.arrows{
+    width: 20%;
+    /* background: #6276FF; */
+}
+.arrow-but1{
+    border: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+    color: white;
+    background: #6A7CFF;
+}
+.arrow-but2{
+    border: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+    color: black;
+    background: white;
+    box-shadow: 0px 0px 4px gray;
+    margin-left: 4%;
+}
+.count{
+    color: #6A7CFF;
+    font-size: 12px;
+}
+.label{
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 250px;
+    font-weight: 900;
+    
+}
+header>.menu{
+    display: none;
+}
+/* .label>br{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+/* media quires */
+@media(max-width: 768px){
+    nav,.nav-but{
+        display: none;
+      }
+    header>.menu{
+        display: block;
+    }  
+}
